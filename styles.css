@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+
+
+button{
+width: 4rem;
+font-family: 'Patrick Hand', cursive;
+/* background-image: linear-gradient(to right bottom, #c8423b, #ce3253, #cc276d, #c22a89, #ae37a5); */
+/* background-image: linear-gradient(to right bottom, #2e0c2c, #582c45, #835060, #ad777c, #d6a29c); */
+background-image: linear-gradient(to left, #853b85, #a75485, #bf728b, #d19398, #deb4ae);
+border-radius: .5rem;
+}
+@media(min-width:50px) {
+body{
+    /* background-image: linear-gradient(to right top, #712c28, #732c38, #702f46, #6b3554, #623b5f); */
+    background-image: radial-gradient(circle, #d6a29c, #be7c82, #a2576f, #823562, #5c1557);
+        height: 100vh;
+        margin: 0;
+        /* overflow: hidden; */
+    }
+img{
+    height: 126px;    
+    width: 7rem;
+    border-radius: 32px;    
+    padding: 0;
+    margin-left: 10px;
+    /* transform: none;
+    transition: none; */
+    
+}
+
+h1{
+    font-family: 'Permanent Marker', cursive;
+    text-align: center;
+    /* background: linear-gradient(to right top, #712c28, #732c38, #702f46, #6b3554, #623b5f); */
+}
+h4{
+    text-align: center;
+    font-family: 'Permanent Marker', cursive;
+}
+.box1{
+    width: 16rem;
+    height: 15rem;
+    position: relative;
+    margin: 1rem;    
+    border-radius: 10px;
+    /* background-image: linear-gradient(to left top, #b3403a, #a12f45, #8b234c, #701e50, #531c4f); */
+    /* background-image: linear-gradient(to left top, #762b27, #8d273b, #a12357, #ad277b, #ae37a5); */
+    background-image: linear-gradient(to right bottom, #d6a29c, #be7c82, #a2576f, #823562, #5c1557);
+    font-family: 'Patrick Hand', cursive;
+    box-shadow: 9px 9px 23px 6px rgba(0,0,0,0.63);
+-webkit-box-shadow: 9px 9px 23px 6px rgba(0,0,0,0.63);
+-moz-box-shadow: 9px 9px 23px 6px rgba(0,0,0,0.63);
+}
+.mainbox :hover{    
+    transform: scale(1.06);
+    transition: 0.2s;
+}
+
+.seats{
+    position: absolute;
+    top: 2rem;
+    width: 4rem;
+}
+
+.date{
+    position: absolute;
+}
+
+.mainbox{
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+    flex-direction: column;
+}
+
+}
+
+@media(min-width:900px){
+    body{
+        /* background-image: linear-gradient(to right top, #712c28, #732c38, #702f46, #6b3554, #623b5f); */
+        /* background-image: linear-gradient(to right bottom, #d6a29c, #be7c82, #a2576f, #823562, #5c1557); */
+        background-image: radial-gradient(circle, #d6a29c, #be7c82, #a2576f, #823562, #5c1557);
+        height: 100vh;
+        margin: 0;
+        overflow: hidden;
+    }
+img{
+    height: 126px;    
+    width: 7rem;
+    border-radius: 32px;    
+    padding: 0;
+    margin-left: 10px;
+    /* transform: none;
+    transition: none; */
+    
+}
+
+h1{
+    font-family: 'Permanent Marker', cursive;
+    text-align: center;
+    /* background: linear-gradient(to right top, #712c28, #732c38, #702f46, #6b3554, #623b5f); */
+}
+h4{
+    text-align: center;
+    font-family: 'Permanent Marker', cursive;
+}
+.box1{
+    width: 16rem;
+    height: 15rem;
+    position: relative;
+    margin: 1rem;    
+    font-family: 'Patrick Hand', cursive;
+    /* background-image: radial-gradient(circle, #d6a29c, #be7c82, #a2576f, #823562, #5c1557); */
+    background-image: linear-gradient(to right bottom, #d6a29c, #be7c82, #a2576f, #823562, #5c1557);
+    box-shadow: 9px 9px 23px 6px rgba(0,0,0,0.63);
+-webkit-box-shadow: 9px 9px 23px 6px rgba(0,0,0,0.63);
+-moz-box-shadow: 9px 9px 23px 6px rgba(0,0,0,0.63);
+}
+.mainbox :hover{    
+    transform: scale(1.06);
+    transition: 0.2s;
+}
+
+.seats{
+    position: absolute;
+    top: 2rem;
+}
+
+.date{
+    position: absolute;
+}
+
+.mainbox{
+    display: flex;
+    justify-content: space-around;
+    align-items:center;   
+    flex-direction: row; 
+}
+}
